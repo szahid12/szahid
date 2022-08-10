@@ -19,7 +19,7 @@ const data = {
   handle: chalk.white('@szahid'),
   work: chalk.white('Magento developer at Norsys'),
   npm: chalk.gray('https://npmjs.com/') + chalk.red('~szahid'),
-  github: chalk.gray('https://github.com/') + chalk.green('zahidsana12'),
+  github: chalk.gray('https://github.com/') + chalk.green('szahid12'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('sana-zahid-32891a175'),
   npx: chalk.red('npx') + ' ' + chalk.white('szahid'),
   labelWork: chalk.white.bold('    Work:'),
@@ -47,4 +47,4 @@ const output = heading + // data.name + data.handle
                linkedining + newline + // data.labelLinkedIn + data.linkedin
                newline + carding // data.labelCard + data.npx
 
-fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.red(boxen(output, options)))
+fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.yellow(boxen(output, options)))

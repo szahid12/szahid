@@ -1,6 +1,6 @@
 {
   "name": "szahid",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A personal card for Sana ZAHID",
   "main": "/bin/card.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zahidsana12/szahid.git"
+    "url": "git+https://github.com/szahid12/szahid.git"
   },
   "scripts": {
     "prepublish": "npm run build",
